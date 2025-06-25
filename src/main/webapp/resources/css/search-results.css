@@ -1,0 +1,288 @@
+
+
+/* .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+} */
+
+/* Results Section Styles */
+.results-section {
+    padding: 40px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ff6600;
+    font-size: 28px;
+}
+
+.search-summary {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.search-summary .route {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.search-summary .route i {
+    margin: 0 10px;
+}
+
+.search-summary .route i.departure {
+    color: #28a745;
+    margin-left: 0;
+}
+
+.search-summary .route i.destination {
+    color: #dc3545;
+}
+
+.search-summary .date {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.search-summary .date i {
+    margin-right: 8px;
+    color: #6c757d;
+}
+
+.results-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.search-filter {
+    display: flex;
+    margin-bottom: 20px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+}
+
+.filter-btn {
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    background-color: white;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.filter-btn.active {
+    background-color: #ff6600;
+    color: white;
+    border-color: #ff6600;
+}
+
+.no-results {
+    text-align: center;
+    padding: 50px 20px;
+    color: #6c757d;
+}
+
+.no-results i {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #ff6600;
+}
+
+.no-results p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.btn-search-again {
+    display: inline-block;
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s;
+}
+
+.btn-search-again:hover {
+    background-color: #e55c00;
+}
+
+.trip-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.trip-card {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    transition: box-shadow 0.3s;
+}
+
+.trip-card:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.trip-details {
+    flex: 1;
+    min-width: 300px;
+}
+
+.trip-route {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.time-location {
+    text-align: center;
+    min-width: 120px;
+}
+
+.time {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+}
+
+.location {
+    font-size: 14px;
+    color: #6c757d;
+}
+
+.trip-duration {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.duration-line {
+    height: 2px;
+    background-color: #ddd;
+    width: 100%;
+    position: relative;
+}
+
+.duration-line:before, .duration-line:after {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background-color: #ddd;
+    border-radius: 50%;
+    position: absolute;
+    top: -2px;
+}
+
+.duration-line:before {
+    left: 0;
+}
+
+.duration-line:after {
+    right: 0;
+}
+
+.duration-time {
+    font-size: 12px;
+    color: #6c757d;
+    margin-top: 5px;
+}
+
+.trip-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.trip-info > div {
+    margin-right: 20px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.trip-info i {
+    margin-right: 8px;
+    color: #6c757d;
+}
+
+.trip-action {
+    text-align: center;
+    min-width: 150px;
+    margin-left: 20px;
+}
+
+.price {
+    margin-bottom: 15px;
+}
+
+.amount {
+    font-size: 22px;
+    font-weight: 600;
+    color: #ff6600;
+}
+
+.price-type {
+    font-size: 12px;
+    color: #6c757d;
+}
+
+.btn-book {
+    display: block;
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s;
+}
+
+.btn-book:hover {
+    background-color: #e55c00;
+}
+
+@media (max-width: 768px) {
+    .trip-card {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .trip-action {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    
+    .price {
+        margin-bottom: 0;
+    }
+}
