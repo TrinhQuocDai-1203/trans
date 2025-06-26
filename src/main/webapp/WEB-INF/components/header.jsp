@@ -8,7 +8,7 @@
         <a href="${pageContext.request.contextPath}/" style="text-decoration: none; display: flex; align-items: center;">
           <!-- <img src="${pageContext.request.contextPath}/resources/images/futa-logo.png" alt="FUTA Bus Lines" style="height: 50px; margin-right: 10px;"> -->
           <div style="display: flex; flex-direction: column;">
-            <span style="font-size: 20px; font-weight: bold; color: white;">FUTA Bus Lines</span>
+            <span style="font-size: 20px; font-weight: bold; color: white;">Kim Quy Bus</span>
             <span style="font-size: 12px; color: #f1f1f1;">CHẤT LƯỢNG LÀ DANH DỰ</span>
           </div>
         </a>

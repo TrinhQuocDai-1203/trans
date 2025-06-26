@@ -5,7 +5,7 @@
         >
           <div class="position-sticky pt-3">
             <div class="text-center mb-4">
-              <h5 class="text-white">FUTA Bus Lines</h5>
+              <h5 class="text-white">Kim Quy  Bus Lines</h5>
               <p class="text-white-50">Hệ thống </p>
             </div>
             <hr class="text-white-50">
